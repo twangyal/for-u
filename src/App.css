@@ -1,38 +1,23 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.backdrop {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-flow: column-reverse nowrap;
+  background-image: url(../public/heart_logo.jpeg);
+  background-size: 100px;
+  
 }
-
-.App-link {
-  color: #61dafb;
+.page1{
+  display: flex;
+  flex-flow: column nowrap;
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text{
+  align-self: center;
+  margin-top: 100px;
+  margin-bottom: -150px;
+  font-family: 'Indie Flower';
+  font-size: 10vw;
+}
+.button{
+  align-self: center;
+  margin-top:-70px;
 }
