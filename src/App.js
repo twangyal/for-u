@@ -1,25 +1,31 @@
-import logo from './logo.svg';
+import heart from './images/heart_logo.jpeg';
+import letter from './images/love-letter.png';
 import './App.css';
 
-function App() {
+export default function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='page1'>
+        <h1 className='text'>You Got Mail!</h1>
+        <img className='letter' alt="" src={letter}/>
+        <OpenButton className="button"/>
+      
     </div>
   );
 }
-
-export default App;
+function OpenButton(){
+  function handleClick(){
+    alert("Hello! I am an alert box!");
+  }
+  return(
+    <button className='button' onClick={handleClick}>Click Here To Open Your Letter</button>
+  );
+}
+function NoButton(){
+  function handleClick(){
+    alert("Hello! I am an alert box!");
+  }
+  return(
+    <button onClick={handleClick}>No</button>
+  );
+}
