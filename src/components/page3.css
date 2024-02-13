@@ -1,0 +1,16 @@
+.flexcontainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    background-image: url('../images/heart_logo.jpeg');
+    background-size: 100px;
+}
+
+.img{
+    width: 40vw;
+}
+.mytext{
+    font-family: 'Indie Flower';
+    font-size: 10vw;
+}

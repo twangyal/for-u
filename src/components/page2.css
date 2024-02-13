@@ -1,0 +1,30 @@
+.flex-container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.yes-button{
+    font-size: 2vw;
+    margin-right: 300px;
+}
+.no-button{
+    font-size: 2vw;
+}
+.cat{
+    margin-top: 500px;
+    width: 20%;
+    align-self: center;
+    z-index:0;
+}
+.my-text{
+    margin-top: -1200px;
+    font-size: 10vw;
+    margin-left: 400px;
+    font-family: 'Indie Flower';
+}
